@@ -1,7 +1,7 @@
 from src import initApp
 from config import config
 
-configuration = config['default']
+configuration = config['development']
 
 app = initApp(configuration)
 
